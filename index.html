@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="profile-container">
+    <div class="profile-card">
+      <div class="profile-image">
+        <img src="hero_image.png" alt="Profile Picture" data-testid="profilePicture">
+      </div>
+      <h2 data-testid="fullName">Ismail Oni</h2>
+      <p data-testid="jobTitle">Frontend Developer</p>
+      <span data-testid="currentLocation">Lagos, Nigeria</span>
+    </div>
+    <div class="profile-details">
+      <p data-testid="shortBio"><q>I am a passionate frontend developer specializing in creating responsive, user-friendly web applications. I love combining creativity with code to deliver impactful digital experiences.</q></p>
+      <div data-testid="socialLinks" class="social-links">
+        <a href="mailto:ismailoni@example.com" data-title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+        <a href="https://github.com/ismailoni" target="_blank" data-title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/ismailoni" target="_blank" data-title="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://twitter.com/ismailoni" target="_blank" data-title="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </div>
+      <p class="time" data-testid="currentTimeUTC"></p>
+      <!-- <p class="footer">Made with ❤️ by <strong>Ismail Oni</strong></p> -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
